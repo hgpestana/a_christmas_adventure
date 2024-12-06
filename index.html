@@ -9,7 +9,7 @@
 </head>
 <body>
 <tw-story><noscript><tw-noscript>JavaScript needs to be enabled to play A Christmas Adventure.</tw-noscript></noscript></tw-story>
-<tw-storydata name="A Christmas Adventure" startnode="3" creator="Twine" creator-version="2.9.2" format="Harlowe" format-version="3.3.9" ifid="051277E7-5C2C-42EA-B1BC-57640C9AEBC1" options="" tags="" zoom="1" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">img {
+<tw-storydata name="A Christmas Adventure" startnode="30" creator="Twine" creator-version="2.9.2" format="Harlowe" format-version="3.3.9" ifid="051277E7-5C2C-42EA-B1BC-57640C9AEBC1" options="" tags="" zoom="1" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">img {
     display: block;
     margin: 0 auto;
     width: 100%;
@@ -49,6 +49,9 @@ You decide to [[read the letter]] to satisfy your curiosity.</tw-passagedata><tw
 ## So it begins
 
 &lt;img src=&quot;https://hgpestana.github.io/a_christmas_adventure/docs/assets/images/img1.png&quot;/&gt;
+&lt;audio autoplay loop&gt;
+	&lt;source src=&quot;https://hgpestana.github.io/a_christmas_adventure/docs/assets/audio/audio.mp3?raw=true&quot; type=&quot;audio/mpeg&quot;&gt;
+&lt;/audio&gt;
 
 //Welcome, lone traveler, to this |gold&gt;[Christmas adventure]!//
 
@@ -190,6 +193,10 @@ Afterwards, it is time to [[wake up -&gt;Waking up]]</tw-passagedata><tw-passage
 
 &lt;img src=&quot;https://hgpestana.github.io/a_christmas_adventure/docs/assets/images/img28.png&quot;/&gt;
 
+&lt;audio autoplay loop&gt;
+	&lt;source src=&quot;https://hgpestana.github.io/a_christmas_adventure/docs/assets/audio/audio.mp3?raw=true&quot; type=&quot;audio/mpeg&quot;&gt;
+&lt;/audio&gt;
+
 // You see the tome shining ever so brightly //
 
 From within, you can see several colors dancing a magical dance as if feeling free from being released.
@@ -309,7 +316,7 @@ Afterward, you open the door, leave, and start [[walking to your car]]</tw-passa
 
 You look around and see an abandoned terrain, with an eerie look. You park and exit the car and see, further down, what seems to be an abandoned house. Although still scared, you decide to see this through and continue towards the house.
 
-However, once you reach it, you notice that, in fact, it is not a house but a chapel. Although it is a bit rough around the edges, it seems to be being maintained, although you cannot find anyone in it. You walk in and around the chapel and see no one there. However, there is a small rectangular stone sitting on the altar that captures your eye.
+However, once you reach it, you notice that, in fact, it is not a house but a chapel. Although it is a bit rough around the edges, it seems maintained, yet you cannot find anyone in it. You walk in and around the chapel and see no one there. However, there is a small rectangular stone sitting on the altar that captures your eye.
 
 You pick up the letter to see if it gives you another clue. The information on it, once again, starts changing.
 
@@ -460,7 +467,7 @@ You look into the letter and its content has changed once again and is asking fo
 
 The figure stops in front of you and holds a letter in its hand. Whispering slowly, it says:
 
-(text-style:&quot;smear&quot;)[// Read the words that Vigenère shared with Kringle //]
+(text-style:&quot;smear&quot;)[// Read the words that (color:green)[Vigenère] shared with (color:green)[Kringle] //]
 
 It then extended the |gold&gt;[letter] for you to grab. You pick it up, open it, and read its content
 
@@ -576,7 +583,9 @@ Can it really be that the letter was, in fact, true? And, if so, would this mean
 
 It reaches its cold, bony hand towards you and touches your forehead. You feel your consciousness fading away slowly, giving in to what seems to be an eternal slumber.
 
-//Hey, hey, don&#39;t give up just yet. It&#39;s time for you to [[wake up-&gt;Waking up]]//</tw-passagedata></tw-storydata>
+//Hey, hey, don&#39;t give up just yet. It&#39;s time for you to [[wake up-&gt;Waking up]]//</tw-passagedata><tw-passagedata pid="30" name="Welcome to a Christmas Adventure" tags="" position="100,325" size="100,100">#(color:yellow)+(align:&quot;&lt;==&quot;)[(align:&quot;=&gt;&lt;=&quot;)+(box:&quot;X&quot;)[(text-style:&quot;smear&quot;)[Welcome to a Christmas Adventure]]]
+
+(color:red)+(text-style:&quot;underline&quot;)+(align:&quot;=&gt;&lt;=&quot;)+(box:&quot;X&quot;)[[[Click here to start your adventure-&gt;So it begins]] ]</tw-passagedata></tw-storydata>
 <script title="Twine engine code" data-main="harlowe">(function(){"use strict";
 var require,define;!function(){var e={},r={};require=function(i){var n=e[i];return n&&(r[i]=n[1].apply(void 0,n[0].map(require)),e[i]=void 0),r[i]},(define=function(r,i,n){if("function"==typeof r)return r();e[r]=[i,n]}).amd=!0}();/*!
  * https://github.com/paulmillr/es6-shim
